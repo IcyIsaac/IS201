@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    font-family: 'system-ui';
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 275px;
+    background-color: #4f91be;
+}
+
+.resumeContainer {
+    flex: 1;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.imgSpan {
+    display: block;
+    margin: 20px 0 20px 0;
+}
+
+img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin-left: 40px;
+    border: 8px solid white;
+}
+
+.nav-top li {
+    margin: 20px;
+}
+
+#bottom-nav {
+    margin-bottom: 10px;
+}
+
+.nav, .nav-top {
+    text-align: center;
+    list-style-type: none;
+}
+
+.nav li {
+    padding: 8px 0;
+}
+
+.nav li a, .nav-top li a{
+    font-family: 'system-ui';
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: .05rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff8c;
+}
+
+.nav .active {
+    color: white;
+}
+
+.nav-top .active {
+    color: white;
+}
+
+/*ABOUT SECTION*/
+
+#resumeSections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    border-bottom: 1px solid grey;
+}
+
+.resumeSectionContent {
+    display: block;
+    height: auto;
+    width: auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 64px;
+    font-family: 'system-ui';
+}
+
+.address {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #6c757D;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.highlighted {
+    color: #4f91be;
+}
+
+.sectionText {
+    color: #6c757D;
+    font-size: 18px;
+}
+
+.socialIcons {
+    margin-top: 50px;
+    letter-spacing: 20px;
+}
+
+.iconA {
+    font-size: 20px;
+    text-decoration: none;
+    color: #4f91be;
+}
+
+.roundIcons {
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #4f91be;
+    border-radius: 50%;
+    transition: .3s;
+} .roundIcons:hover {
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    transition: .3s;
+  }
+
+/*Experience Section  */
+
+#experienceSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+
+}
+
+.sectionTitle {
+    position: static;
+    right: 425px;
+    padding: 40px 0 10px 0;
+    text-transform: uppercase;
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    font-size: 36px;
+    border-bottom: 2px solid #6c757D;
+}
+
+.experienceSectionContent {
+    display: block;
+    height: auto;
+    width: auto;
+    padding: 20px;
+}
+
+.exp {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.expInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.expTitle {
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.expPosition {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 5px 0 20px 0;
+    color:#6c757D;
+}
+
+.expYearContainer {
+    right: 0;
+}
+
+.expYear {
+    color: #4f91be;
+
+}
+
+/* Education Section */
+
+#educationSections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    border-bottom: 1px solid grey;
+}
+
+.educationSectionContent {
+    display: block;
+    height: auto;
+    width: auto;
+    padding: 20px;
+}
+
+#educationTitle {
+    right: 440px;
+}
+
+/* Skills Section */
+
+#skillsSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    border-bottom: 1px solid grey;
+}
+
+#skillsTitle {
+    margin: 0 100px 50px 0;
+}
+
+.skillSectionContent {
+    height: auto;
+    width: auto;
+    margin-left: 40px;
+}
+
+.skillsContentTitle {
+    color: #6c757D;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #6c757D;
+}
+
+.skillsList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skillsList li  {
+    display: inline-block;
+    color: #6c757D;
+    font-size: 64px;
+    padding: 16px 40px 16px 0;
+}
+
+.workflowList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.workflowList li i {
+}
+
+.workflowList li  {
+    display: inline-block;
+    color: #6c757D;
+    font-size: 16px;
+    padding: 16px 40px 0 0;
+}
+
+/* Interest Section */
+
+#interestSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: auto;
+    border-bottom: 1px solid grey;
+}
+
+#interestTitle {
+    border-bottom: 2px solid #6c757D;
+    margin: 0 0 50px 0;
+}
+
+.interestSectionContent {
+    position: static;
+    height: auto;
+    width: auto;
+}
+
+.interestSectionContent span {
+    color: #6c757D;
+}
+
+
+@media screen and (max-width: 975px) {
+    .mainContainer {
+        flex-direction: column;
+    }
+
+    .navContainer {
+        z-index: 1;
+        position: fixed;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        width: 100%;
+        background-color: #4f91be;
+    }
+
+    .imgSpan {
+        width: 50%;
+    }
+
+    img {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    .nav-top {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        width: 50%;
+    }
+
+    .nav li {
+        display: none;
+    }
+
+    .nav-top li a{
+        font-family: 'system-ui';
+        font-weight: 800;
+        font-size: 16px;
+        letter-spacing: .05rem;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #ffffff8c;
+    }
+
+    .nav-top .active {
+        color: white;
+    }
+
+
+    .sectionTitle {
+        position: static;
+    }
+
+    .introSectionContent {
+        margin-right: 0;
+    }
+}
